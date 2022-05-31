@@ -1,14 +1,36 @@
+$prefix: "../img/";
 $bg__coming-img: "../img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"contact/contact-s1.jpg",
+    $prefix+"contact/contact-s2.jpg",
+    $prefix+"contact/contact-s3.jpg";
 $bg__error-img: "../img/error.jpg";
+$bg__index-img: $prefix+"index/index-s1.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
+$bg__shop-img: $prefix+"shop/shop-s1.jpg";
+$bg__story-img: 
+    $prefix+"story/story-s1.jpg",
+    $prefix+"story/story-s2.jpg",
+    $prefix+"story/story-s3.jpg";
+$bg__user-img: $prefix+"user/user-s1.jpg";
 $bg__classes:
     "coming",
+    "contact",
     "error",
-    "privacy";
+    "index",
+    "privacy",
+    "shop",
+    "story",
+    "user";
 $bg__img-arr: 
     $bg__coming-img,
+    $bg__contact-img,
     $bg__error-img,
-    $bg__privacy-img;
+    $bg__index-img,
+    $bg__privacy-img,
+    $bg__shop-img,
+    $bg__story-img,
+    $bg__user-img;
 $color__shadow: #333;
 $footer__height: 41px;
 $text-shadow: 1px 1px 3px $color__shadow; 
